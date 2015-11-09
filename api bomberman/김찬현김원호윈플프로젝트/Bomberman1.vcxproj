@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D226361-4A59-4842-A503-056B4E55B65F}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Bomberman1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalOptions>msimg32.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalOptions>msimg32.lib %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bombermanwinplecpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur" />
+    <None Include="wave2.bin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="(colored)봄버맨 (왼)옆모습 걸어갈때2.bmp" />
+    <Image Include="(colored)봄버맨 (우)옆모습 걸어갈때.bmp" />
+    <Image Include="(colored)봄버맨 (우)옆모습 걸어갈때2.bmp" />
+    <Image Include="(colored)봄버맨 뒤에서 걸어갈때1.bmp" />
+    <Image Include="(colored)봄버맨 뒤에서 걸어갈때2.bmp" />
+    <Image Include="(colored)봄버맨 앞에서 걸어갈때.bmp" />
+    <Image Include="(colored)봄버맨앞모습.bmp" />
+    <Image Include="..\..\..\..\..\Desktop\Bomberman intro.bmp" />
+    <Image Include="..\..\..\..\..\Desktop\chanhyun\자료및듣기\KoreaPloyTechnic\과제\WINPLE Bomberman\gamestart22.bmp" />
+    <Image Include="..\..\..\..\..\Desktop\chanhyun\자료및듣기\KoreaPloyTechnic\과제\WINPLE Bomberman\게임종료bitmap.bmp" />
+    <Image Include="1chapter 블록.bmp" />
+    <Image Include="1stage 폭발.bmp" />
+    <Image Include="bitmap19.bmp" />
+    <Image Include="bitmap9.bmp" />
+    <Image Include="BOMB.bmp" />
+    <Image Include="bomb.PNG" />
+    <Image Include="bombbitmap22.bmp" />
+    <Image Include="Bomber.ico" />
+    <Image Include="Bomberman intro.bmp" />
+    <Image Include="bombermanstage3.bmp" />
+    <Image Include="bombermanstage3.PNG" />
+    <Image Include="bombtt.bmp" />
+    <Image Include="bombtt.PNG" />
+    <Image Include="bossanimation.bmp" />
+    <Image Include="colored봄버맨 옆모습 걸어갈때.bmp" />
+    <Image Include="ENEMY.bmp" />
+    <Image Include="gameover.bmp" />
+    <Image Include="gamestart22.bmp" />
+    <Image Include="ghost222.bmp" />
+    <Image Include="lastboosss애니메이션(1).bmp" />
+    <Image Include="lastboosss애니메이션.bmp" />
+    <Image Include="shoesss.bmp" />
+    <Image Include="shoesss.PNG" />
+    <Image Include="sTAR.bmp" />
+    <Image Include="게임종료.PNG" />
+    <Image Include="게임종료bitmap.bmp" />
+    <Image Include="벽.bmp" />
+    <Image Include="별먹은거.bmp" />
+    <Image Include="보스없는허허벌판.bmp" />
+    <Image Include="봄버맨 아이템 다트.PNG" />
+    <Image Include="봄버맨 캐릭터이동소개.bmp" />
+    <Image Include="아이템 속도증가.bmp" />
+    <Image Include="아이템 속도증가.PNG" />
+    <Image Include="아이템화력.bmp" />
+    <Image Include="아이템화력.PNG" />
+    <Image Include="완전이긴이미지.bmp" />
+    <Image Include="인트로애니메이션.bmp" />
+    <Image Include="인트로애니메이션2.bmp" />
+    <Image Include="인트로애니메이션3.bmp" />
+    <Image Include="인트로애니메이션4.bmp" />
+    <Image Include="주인공.bmp" />
+    <Image Include="캐릭뒤질때.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="realbombshockwav.wav" />
+    <Media Include="게임베드엔딩.WAV" />
+    <Media Include="게임완전엔딩.WAV" />
+    <Media Include="인트로.WAV" />
+    <Media Include="폭탄설치시소리wav.wav" />
+    <Media Include="폭탄터지는소리wav.wav" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

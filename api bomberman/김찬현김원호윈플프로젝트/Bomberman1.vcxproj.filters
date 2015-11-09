@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bombermanwinplecpp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="wave2.bin">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\Desktop\Bomberman intro.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\chanhyun\자료및듣기\KoreaPloyTechnic\과제\WINPLE Bomberman\게임종료bitmap.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\..\Desktop\chanhyun\자료및듣기\KoreaPloyTechnic\과제\WINPLE Bomberman\gamestart22.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bomberman intro.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="gamestart22.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="게임종료.PNG">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="게임종료bitmap.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="봄버맨 캐릭터이동소개.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="(colored)봄버맨앞모습.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="(colored)봄버맨 앞에서 걸어갈때.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="1chapter 블록.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="인트로애니메이션2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap9.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="인트로애니메이션.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="인트로애니메이션3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="인트로애니메이션4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="(colored)봄버맨 뒤에서 걸어갈때1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="(colored)봄버맨 뒤에서 걸어갈때2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="(colored)봄버맨 (우)옆모습 걸어갈때.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="(colored)봄버맨 (우)옆모습 걸어갈때2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="(colored)봄버맨 (왼)옆모습 걸어갈때2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="colored봄버맨 옆모습 걸어갈때.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bombbitmap22.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="1stage 폭발.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="주인공.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="BOMB.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bomb.PNG">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아이템 속도증가.PNG">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아이템화력.PNG">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아이템 속도증가.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="아이템화력.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bitmap19.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bombtt.PNG">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bombtt.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="shoesss.PNG">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="shoesss.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="캐릭뒤질때.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="gameover.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ENEMY.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Bomber.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="lastboosss애니메이션.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="보스없는허허벌판.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="lastboosss애니메이션(1).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bossanimation.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="완전이긴이미지.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bombermanstage3.PNG">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="bombermanstage3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="벽.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="sTAR.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="봄버맨 아이템 다트.PNG">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="별먹은거.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="ghost222.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="폭탄설치시소리wav.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="폭탄터지는소리wav.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="realbombshockwav.wav">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="게임완전엔딩.WAV">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="게임베드엔딩.WAV">
+      <Filter>리소스 파일</Filter>
+    </Media>
+    <Media Include="인트로.WAV">
+      <Filter>리소스 파일</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
