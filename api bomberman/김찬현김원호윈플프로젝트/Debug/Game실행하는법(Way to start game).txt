@@ -1,0 +1,29 @@
+
+게임실행순서: release 폴더에 봄버맨 아이콘 을 더블클릭하면 게임을 실행합니다.
+	      Goto the Release directory and double click bomberman icon(.exe).
+
+
+stage는 총 3개로 구성되있습니다.
+This game is consist of 3 stages.
+
+
+stage 2부터 아이템사용이가능합니다.
+You can use item from second stages (can't use item in first stages).
+
+stage 2부터 일정시간동안 탄을 깨지못하면 유령ai가 나와 주인공을 따라다니면서 덮칩니다.
+If you don't clear the game in time then ai monster figure out and follow player. If they touch the player-> game over.
+
+게임방법 및 설명
+Operation keys and description
+
+
+-좌우상하키를 눌러서 조작
+Can control with up,down,left,right keys in keyboard.
+
+
+-아이템 사용키는 z키입니다.(무적)
+When you want to use item, push the 'z' key. That makes player unbeatable. 
+
+
+-t키 를 누르면 다음스테이지로 넘어갈수있습니다. (치트키)
+if you push the 't' key, then you can go to next stage. This is cheat code.
